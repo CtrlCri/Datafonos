@@ -17,6 +17,8 @@ El proyecto se enfoca en los siguientes pasos:
 - Python 3.x
 - Jupyter Notebook u otro entorno de programación similar
 - Bibliotecas de Python: pandas, matplotlib, seaborn
+- PostgreSQL
+- pgAdmin (opcional, para interfaz gráfica de PostgreSQL)
 
 ## Instrucciones de Uso
 
@@ -24,6 +26,7 @@ El proyecto se enfoca en los siguientes pasos:
 2. Abre el archivo Jupyter Notebook `script.ipynb` en tu entorno de programación.
 3. Sigue los pasos descritos en el Notebook para cargar los datos, realizar la conciliación y analizar los resultados.
 4. Utiliza los gráficos generados para visualizar los porcentajes de transacciones cruzadas y no cruzadas.
+5. Por otro lado, en app.py tienes la conexion a la base de datos y las consultas; puedes ajecutar el mismo desde la terminal.
 
 ## Resultados
 
